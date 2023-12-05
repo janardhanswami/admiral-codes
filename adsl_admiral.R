@@ -366,5 +366,3 @@ adsl2 <- sv1 %>%
 adsl3 <- full_join(adsl1, adsl2, by = "USUBJID")
 View(adsl3)
 
-
-refer to SAP, Section 7.1 - if not pooled then SITEGR1=SITEID. If pooled, SITEGR1 will be 900
