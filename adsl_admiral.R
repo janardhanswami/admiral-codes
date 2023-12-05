@@ -366,3 +366,12 @@ adsl2 <- sv1 %>%
 adsl3 <- full_join(adsl1, adsl2, by = "USUBJID")
 View(adsl3)
 
+
+
+install.packages(c("usethis", "credentials"))
+
+## set your user name and email:
+usethis::use_git_config(user.name = "janardhanswami", user.email = "saijanardhanswami@mail.com")
+
+
+
